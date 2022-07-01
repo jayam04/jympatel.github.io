@@ -1,6 +1,6 @@
 ---
 title: jympatel.github.io
-description: creating this website in hope that might help someone
+description: a web with some codes and posts!
 ---
 
 ## projects
