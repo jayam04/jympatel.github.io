@@ -7,7 +7,7 @@ favicon: /data/codewm.ico
 contacts.py is simple CLI program with stores your contact information using pickle library in python3. It allows encrypting data with specific key if you choose to create.  
 [get program at github](https://github.com/JymPatel/python)  
 
-## updates
+## updates  
 ##### first-release
 * you can add contact, display it.  
 * you can also sort contact list.  
