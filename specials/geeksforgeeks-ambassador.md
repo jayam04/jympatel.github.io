@@ -10,4 +10,4 @@ description: grow with GeeksforGeeks
 * [checking your profile is also useful many times!](https://auth.geeksforgeeks.org/user/jympatel/practice)  
 
 ## me-on-github
-Jym Patel is GeeksforGeeks Campus Ambassador of SSASIT, 
+Jym Patel is GeeksforGeeks Campus Ambassador of SSASIT, for 2022
