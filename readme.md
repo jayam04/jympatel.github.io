@@ -1,1 +1,0 @@
-# jympatel.github.io
