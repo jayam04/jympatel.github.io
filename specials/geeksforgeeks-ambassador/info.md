@@ -3,7 +3,7 @@ title: GeeksforGeeks
 description: grow with GeeksforGeeks
 ---
 
-![Logo](./geeksforgeeks-ambassador/g4glogo.png)
+![Logo](./logo.png)
 
 ## useful things you can do on GeeksforGeeks
 * [read article for specific solution](https://www.geeksforgeeks.org/category/guestblogs/?ref=ndm)  
