@@ -1,11 +1,11 @@
 <!-- CUSTOM BODY SNIPPETS  -->
 
 <!-- BuyMeCoffee -->
-{% if '{{ page.buyMeCoffee }}' == 'true' %}
+{% if {{ page.buyMeCoffee }} == 'true' %}
 <p> BuyMeCoffee </p>
 {% endif %}
 
-{% if '{{ site.buyMeCoffee }}' == 'true' %}
+{% if {{ site.buyMeCoffee }} == 'true' %}
 <p> BuyMeCoffee site </p>
 {% endif %}
 
