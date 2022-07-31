@@ -2,7 +2,7 @@
 title: Rooting Android using Magisk
 description: It's easy once you follow guide!
 favicon: /data/oshelp.ico
-buyMeCoffee: True
+buyMeCoffee: true
 ---
 
 ![Quick View](./quickView.png)  

@@ -4,11 +4,9 @@
 {% if "{{ page.buyMeCoffee }}" == "True" %}
 <p> BuyMeCoffee </p>
 {% endif %}
-{% if True %}
-<p>True</p>
-{% endif %}
-{% if true %}
-<p>true</p>
+
+{% if "{{ site.buyMeCoffee }}" == "True" %}
+<p> BuyMeCoffee site </p>
 {% endif %}
 
 <!-- END CUSTOM BODY SNIPPETS  -->

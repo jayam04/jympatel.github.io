@@ -1,6 +1,7 @@
 ---
 title: jympatel.github.io
 description: a web with some codes and posts!
+buyMeCoffee: false
 ---
 
 ## projects
