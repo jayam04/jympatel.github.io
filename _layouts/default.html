@@ -25,10 +25,10 @@
         {% endif %}
 
         <!-- TITLE -->
-        <h1><a href="{{ "/" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a></h1>
+        <h1 class="mainh1"><a href="{{ "/" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a></h1>
 
         <!-- DESCRIPTION -->
-        <p>{{ page.description | site.description | default: site.github.project_tagline }}</p>
+        <p class="description">{{ page.description | site.description | default: site.github.project_tagline }}</p>
 
         <!-- LOGO -->
         {% if site.logo %}
