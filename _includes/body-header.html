@@ -1,12 +1,19 @@
 <header>
-    <h1><a href="{{ " /" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a></h1>
+    <h1><a href="{{ " /" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a>
+    </h1>
 
-    {% if site.logo %}
-    <!-- <img src="{{page.favicon | relative_url}}" alt="Logo" /> -->
+    {% if page.favicon %}
     <img src="{{ page.favicon | default: '/data/favicon.ico' }}" alt="Logo" />
     {% endif %}
 
     <p>{{ page.description | site.description | default: site.github.project_tagline }}</p>
+
+    <!-- author -->
+    {% if page.type == 'post' %}
+    <p class="view">by {{ page.author.name | default: site.author }}</p>
+    {% if page.author.img %}
+    {% endif %}
+    {% endif %}
 
     {% if site.github.is_project_page %}
     <p class="view"><a href="{{ site.github.repository_url }}">view the project on github <small>{{
@@ -25,5 +32,8 @@
     </ul>
     {% endif %}
 
-    {% include body-custom.html %}
+    <!-- BuyMeCoffee -->
+    {% if page.buyMeCoffee %}
+    <p>buyMeCoffee</p>
+    {% endif %}
 </header>

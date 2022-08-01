@@ -1,8 +1,9 @@
 ---
-layout: post
+type: post
 title: rooting android using magisk
-description: It's easy once you follow guide!
-author: JymPatel
+description: it's easy once you follow guide!
+author:
+  name: JymPatel
 favicon: /data/oshelp.ico
 buyMeCoffee: true
 ---
