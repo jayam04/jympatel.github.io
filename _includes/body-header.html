@@ -16,13 +16,16 @@
 
     <!-- TYPE IS POST -->
     {% if page.type == 'post' %}
-    <p class="view">by {{ page.author.name | default: site.author }}</p>
-    {% if page.author.img %}
-    <!-- TODO add image -->
-    {% endif %}
-    {% if page.date %}
-    <small>{{ page.date | date: "%-d %B %Y" }}</small>
-    {% endif %}
+        <!-- DATE -->
+        {% if page.date %}
+        <small>{{ page.date | date: "%-d %B %Y" }}</small>
+        {% endif %}
+        <!-- AUTHOR -->
+        <p class="view">by {{ page.author.name | default: site.author }}</p>
+        <!-- AUTHOR IMAGE -->
+        {% if page.author.img %}
+        <!-- TODO add image -->
+        {% endif %}
     {% endif %}
 
     <!-- GITHUB PROFILE LINK -->
@@ -42,6 +45,7 @@
     <!-- BUY ME A COFFEE -->
     {% if page.buyMeCoffee %}
     <p>buyMeCoffee</p>
+    <img src="https://media.giphy.com/media/TDQOtnWgsBx99cNoyH/giphy.gif" href="google.com">
     {% endif %}
 
 </header>
