@@ -19,16 +19,26 @@
 
       <header>
 
+        <!-- DATE IF GIVEN -->
+        {% if page.post.date %}
+        <small><p>{{ page.post.date }}</p></small>
+        {% endif %}
+
         <!-- TITLE -->
         <h1><a href="{{ "/" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a></h1>
+
+        <!-- DESCRIPTION -->
+        <p>{{ page.description | site.description | default: site.github.project_tagline }}</p>
 
         <!-- LOGO -->
         {% if site.logo %}
           <img src="{{ page.logo | site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <!-- DESCRIPTION -->
-        <p>{{ page.description | site.description | default: site.github.project_tagline }}</p>
+        <!-- AUTHOR -->
+        {{% if page.post.author %}}
+        <p>by {{ page.post.author }}</p>
+        {% endif %}
 
         <!-- DOWNLOADS -->
         {% if site.show_downloads %}

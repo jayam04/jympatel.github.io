@@ -1,15 +1,15 @@
 ---
 title: jympatel.github.io
-description: a web with some codes and posts!
+description: a web with some codes and posts! \n\n .
 buyMeCoffee: false
 ---
 
 ## projects
-* [contacts.py](/projects/contacts.py/contacts.md)  
+* [contacts.py](/projects/contacts.py/contacts.md) that can store you contacts in CLI.  
 
 ## posts  
 * [rooting android using magisk](/posts/22.07.22/rooting_android.md)  
 
 ## credits
-* github to allow me creating this beautiful web from just writing markdown files.  
-* all contributors maintaining architect theme.  
+* contributors of jekyll and github pages, which now allows me to create this beautiful web by just writing markdown files.  
+* all contributors maintaining architect theme and minimal theme.  

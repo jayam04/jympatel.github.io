@@ -1,14 +1,12 @@
 ---
-type: post
 title: rooting android using magisk
 description: it's easy once you follow guide!
-author:
-  name: JymPatel
 favicon: /data/oshelp.ico
 buyMeCoffee: true
-links:
-  github_profile: https://google.com
-date: 22 July 2022
+post:
+  is_post: true
+  author: JymPatel
+  date: 22nd July 2022
 ---
 
 ![Quick View](./quickView.png)  
