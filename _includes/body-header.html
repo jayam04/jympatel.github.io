@@ -2,8 +2,8 @@
     <h1><a href="{{ " /" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a>
     </h1>
 
-    {% if page.favicon %}
-    <img src="{{ page.favicon | default: '/data/favicon.ico' }}" alt="Logo" />
+    {% if page.logo %}
+    <img src="{{ page.logo | default: '/data/favicon.ico' }}" alt="Logo" />
     {% endif %}
 
     <p>{{ page.description | site.description | default: site.github.project_tagline }}</p>
@@ -12,6 +12,7 @@
     {% if page.type == 'post' %}
     <p class="view">by {{ page.author.name | default: site.author }}</p>
     {% if page.author.img %}
+    <!-- TODO add image -->
     {% endif %}
     {% endif %}
 
