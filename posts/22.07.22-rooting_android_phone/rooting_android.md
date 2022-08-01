@@ -6,6 +6,8 @@ author:
   name: JymPatel
 favicon: /data/oshelp.ico
 buyMeCoffee: true
+links:
+  github_profile: https://google.com
 ---
 
 ![Quick View](./quickView.png)  

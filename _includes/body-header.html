@@ -1,14 +1,20 @@
+<!-- BODY HEADER ADD -->
+
 <header>
+
+    <!-- TITLE -->
     <h1><a href="{{ " /" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a>
     </h1>
 
+    <!-- LOGO -->
     {% if page.logo %}
     <img src="{{ page.logo | default: '/data/favicon.ico' }}" alt="Logo" />
     {% endif %}
 
+    <!-- DESCRIPTION -->
     <p>{{ page.description | site.description | default: site.github.project_tagline }}</p>
 
-    <!-- author -->
+    <!-- TYPE IS POST -->
     {% if page.type == 'post' %}
     <p class="view">by {{ page.author.name | default: site.author }}</p>
     {% if page.author.img %}
@@ -16,15 +22,12 @@
     {% endif %}
     {% endif %}
 
-    {% if site.github.is_project_page %}
-    <p class="view"><a href="{{ site.github.repository_url }}">view the project on github <small>{{
-                site.github.repository_nwo }}</small></a></p>
+    <!-- GITHUB PROFILE LINK -->
+    {% if page.links.github_profile %}
+    <p class="view"><a href="{{ page.links.github_profile | default: site.github.owner_url }}">view my github profile</a></p>
     {% endif %}
 
-    {% if site.github.is_user_page %}
-    <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-    {% endif %}
-
+    <!-- DOWNLOADS BUTTON -->
     {% if site.show_downloads %}
     <ul class="downloads">
         <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -33,8 +36,9 @@
     </ul>
     {% endif %}
 
-    <!-- BuyMeCoffee -->
+    <!-- BUY ME A COFFEE -->
     {% if page.buyMeCoffee %}
     <p>buyMeCoffee</p>
     {% endif %}
+
 </header>
