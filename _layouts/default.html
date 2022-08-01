@@ -12,13 +12,18 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
+
+
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
+        <!-- TITLE -->
+        <h1><a href="{{ "/" | absolute_url }}">{{ page.title | site.title | default: site.github.repository_name }}</a></h1>
+
+        <!-- LOGO -->
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{ page.logo | site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -45,6 +50,13 @@
 
       </section>
       <footer>
+
+        <!-- BUY ME A COFFEE -->
+        {% if page.buyMeCoffee %}
+        <a href="https://www.buymeacoffee.com/jympatel"><img
+            src="https://img.buymeacoffee.com/button-api/?text=buy me a coffee&emoji=&slug=jympatel&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+        {% endif %}
+        
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
