@@ -35,11 +35,6 @@
           <img src="{{ page.logo | site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <!-- AUTHOR -->
-        {% if page.post.author %}
-        <p class="author">by {{ page.post.author }}</p>
-        {% endif %}
-
         <!-- DOWNLOADS -->
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -56,6 +51,16 @@
       </section>
 
       <footer>
+
+        <!-- AUTHOR -->
+        {% if page.post.author %}
+        <p class="author">by {{ page.post.author }}</p>
+        {% endif %}
+
+        <!-- AUTHOR PHOTO -->
+        {% if page.post.author_photo %}
+        <img src="{{ page.post.author_photo }}">
+        {% endif %}
 
         <!-- BUY ME A COFFEE -->
         {% if page.buyMeCoffee %}
