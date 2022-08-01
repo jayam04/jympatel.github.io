@@ -8,7 +8,7 @@ buyMeCoffee: false
 * [contacts.py](/projects/contacts.md)  
 
 ## posts  
-* [Rooting Android using Magisk](/posts/22.07.22-rooting_android_phone/info.md)  
+* [Rooting Android using Magisk](/posts/22.07.22-rooting_android_phone/rooting_android.md)  
 
 ## credits
 * github to allow me creating this beautiful web from just writing markdown files.  
