@@ -4,7 +4,7 @@ description: it's easy once you follow guide!
 favicon: /data/oshelp.ico
 buyMeCoffee: true
 post:
-  author: JymPatel
+  author: Jym Patel
   date: 22nd July 2022
   author_photo: https://avatars.githubusercontent.com/u/93824505?v=4
 ---
