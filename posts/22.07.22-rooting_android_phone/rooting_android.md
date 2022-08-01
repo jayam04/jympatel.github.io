@@ -1,6 +1,8 @@
 ---
-title: Rooting Android using Magisk
+layout: post
+title: rooting android using magisk
 description: It's easy once you follow guide!
+author: JymPatel
 favicon: /data/oshelp.ico
 buyMeCoffee: true
 ---
@@ -10,11 +12,16 @@ buyMeCoffee: true
 ## getting boot.img  
 
 ### if you are using Official ROM  
-try searching google for boot.img of your android device, boot images of Xiaomi devices caan be found easily.  
+try searching google for boot.img of your android device, boot images of Xiaomi devices can be found easily.  
+TODO guide to get boot img  
 
 ### if you are using Custom ROM  
-unzip zip file of your custom ROM
+unzip zip file of your custom ROM  
+TODO get using payload dumper  
 
 ## patching boot.img  
+TODO using magisk app
 
 ## flashing patched_boot.img  
+TODO using fastboot method  
+TODO using recovery method
