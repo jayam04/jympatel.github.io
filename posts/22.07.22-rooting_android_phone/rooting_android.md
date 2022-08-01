@@ -8,6 +8,7 @@ favicon: /data/oshelp.ico
 buyMeCoffee: true
 links:
   github_profile: https://google.com
+date: 22 July 2022
 ---
 
 ![Quick View](./quickView.png)  

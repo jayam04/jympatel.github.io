@@ -20,6 +20,9 @@
     {% if page.author.img %}
     <!-- TODO add image -->
     {% endif %}
+    {% if page.date %}
+    <small>{{ page.date | date: "%-d %B %Y" }}</small>
+    {% endif %}
     {% endif %}
 
     <!-- GITHUB PROFILE LINK -->
