@@ -6,7 +6,6 @@ buyMeCoffee: true
 post:
   author: Jym Patel
   date: 22nd July 2022
-  author_photo: https://avatars.githubusercontent.com/u/93824505?v=4
 ---
 
 ![Quick View](./quickView.png)  
