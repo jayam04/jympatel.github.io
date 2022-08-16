@@ -5,6 +5,7 @@ description: a web with some codes and posts!
 
 ## projects
 * [contacts.py](/projects/contacts.py/contacts.md) that can store you contacts using CLI.  
+* [syncforsimulated](/projects/syncforsimulated/v1.1.md)
 ##### [view all](/projects/projects.md)
 
 ## posts  
