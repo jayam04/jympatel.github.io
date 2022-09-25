@@ -1,0 +1,14 @@
+# jekyll site folder & cache
+_site/*
+.jekyll-cache/*
+
+script/*
+
+
+.travis.yml
+
+Gemfile
+Gemfile.lock
+
+jekyll-theme-minimal.gemspec
+.rubocop.yml
