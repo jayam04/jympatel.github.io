@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: jympatel.github.io
+Token: 5f52e988e05d0a05c608a4ec5f746d3bbb9ff5219ddf4963b60d28e897114e04
